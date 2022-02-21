@@ -11,6 +11,8 @@
 #include "questions.h"
 #define MAX_LEN 256
 #define NUM_QUESTIONS 12
+#inlcude <ctype.h>
+#include <unistd.h>
 
 // Initializes the array of questions for the game
 void initialize_game(void){
@@ -43,6 +45,7 @@ void display_categories(void)
 {	
 	printf("                                    JEOPARDY\n"); // Game layout
 	printf("Radomly selected player types name in  then chooses a question value to answer: \n");
+	printf("***When you type in yout answer make usre to place a word/letter  then space then your answer for proper process***");
 	printf("Question Board: \n");
 	int mul = 0;   // uses this for the inner loop when changing categories to display q values for each categories
 	for(int i = 0;i<3;i++){
