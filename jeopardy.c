@@ -150,7 +150,7 @@ int main(int argc, char *argv[])
     }
 	system("clear");// clear for the end results 
 	printf("\n");
-	printf("\nEND GAME RESULTS:\n");
+	printf("\nEND GAME RESULTS:\n"); // end ruelts do bot work
 	int indexs[4];
 	int k  = 0 ;
 	while(k < 4){ // used for finding the max and printing it out whil also remeber not to check that number 
